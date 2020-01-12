@@ -25,7 +25,7 @@ By default the model will use the dataset in the `Data/IMDb/test/` folder. To ru
 
 ## Running the Model
 
-To run the model complete the following steps;
+To run the model;
 
 1. Clone the repository to your local machine.
 2. Navigate to the repository in the terminal.
