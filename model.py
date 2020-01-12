@@ -29,13 +29,13 @@ def read_data(path_pos, path_neg):
     return(combined_df)
 
 
-# Use the function to read the train, development and test sets.
+# Use the function to read the train and test data.
 
-train = read_data(path_pos="Data/IMDb/train/imdb_train_pos.txt",
-                  path_neg="Data/IMDb/train/imdb_train_neg.txt")
+train = read_data(path_pos="Data/train/imdb_train_pos.txt",
+                  path_neg="Data/train/imdb_train_neg.txt")
 
-test = read_data(path_pos="Data/IMDb/test/imdb_test_pos.txt",
-                 path_neg="Data/IMDb/test/imdb_test_neg.txt")
+test = pd.read_csv("Data/imdb_test.txt, sep="\n", header=None, names=['review'])
+test['positive']=0
 
 # take set of stopwords from nltk
 stopwords=set(nltk.corpus.stopwords.words('english'))
