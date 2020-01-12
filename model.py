@@ -34,7 +34,7 @@ def read_data(path_pos, path_neg):
 train = read_data(path_pos="Data/train/imdb_train_pos.txt",
                   path_neg="Data/train/imdb_train_neg.txt")
 
-test = pd.read_csv("Data/imdb_test.txt, sep="\n", header=None, names=['review'])
+test = pd.read_csv("Data/imdb_test.txt", sep="\n", header=None, names=['review'])
 test['positive']=0
 
 # take set of stopwords from nltk
