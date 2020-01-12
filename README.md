@@ -13,7 +13,7 @@ By default the model will use the dataset in the `Data/IMDb/test/` folder. To ru
 
 ## Model Parameters
 
-The model runs a Radial Basis Function Support Vector Machine (RBF SVM). (The model parameters)[https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html] can be changed by editing `model.py`.
+The model runs a Radial Basis Function Support Vector Machine (RBF SVM). [The model parameters](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) can be changed by editing `model.py`.
 
 ## Running the Model
 
