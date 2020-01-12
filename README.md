@@ -1,5 +1,13 @@
 # Code Release
 
+This GitHub repo contains the code and data needed to predict the sentiment of a moview review as positive or negative. It builds a Radial Basis Function Support Vector Machine (RBF SVM) using 1003 features;
+
+- 500 unigrams.
+- 500 bigrams.
+- 3 sentiment scores.
+
+The 1000 most relevant features, calculated using the Chi-squared test, are selected to build the model.
+
 ## Requirements
 
 To run this machine learning model you will need the following installed;
@@ -13,7 +21,7 @@ By default the model will use the dataset in the `Data/IMDb/test/` folder. To ru
 
 ## Model Parameters
 
-The model runs a Radial Basis Function Support Vector Machine (RBF SVM). [The model parameters](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) can be changed by editing `model.py`.
+[The model parameters](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) can be changed by editing line 143 of `model.py`.
 
 ## Running the Model
 
