@@ -9,7 +9,11 @@ To run this machine learning model you will need the following installed;
 
 ## Modifying Test Data
 
-By default the model will use the dataset in the `Data/IMDb/test/` folder. To run the model on different data, simply replace this with the data you want the model to predict.
+By default the model will use the dataset in the `Data/IMDb/test/` folder. To run the model on different data, simply replace this file with the data you want the model to predict.
+
+## Model Parameters
+
+The model runs a Radial Basis Function Support Vector Machine (RBF SVM). (The model parameters)[https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html] can be changed by editing `model.py`.
 
 ## Running the Model
 
