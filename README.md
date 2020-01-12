@@ -9,7 +9,7 @@ To run this machine learning model you will need the following installed;
 
 ## Modifying Test Data
 
-By default the model will use the datasets in the `Data/IMDb/test/` folder. To run the model on different data, simply replace these with the data you want the model to predict.
+By default the model will use the dataset in the `Data/IMDb/test/` folder. To run the model on different data, simply replace this with the data you want the model to predict.
 
 ## Running the Model
 
