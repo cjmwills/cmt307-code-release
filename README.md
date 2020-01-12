@@ -7,6 +7,10 @@ To run this machine learning model you will need the following installed;
 1. Git
 2. Python (with `sklearn`, `pandas`, `numpy` and `nltk` libraries.)
 
+## Modifying Test Data
+
+By default the model will use the datasets in the `Data/IMDb/test/` folder. To run the model on different data, simply replace these with the data you want the model to predict.
+
 ## Running the Model
 
 To run the model complete the following steps;
