@@ -13,7 +13,7 @@ The 1000 most relevant features, calculated using the Chi-squared test, are sele
 To run this machine learning model you will need the following installed;
 
 1. Git
-2. Python (with `sklearn`, `pandas`, `numpy` and `nltk` libraries.)
+2. Python (with `sklearn`, `pandas`, `numpy` and `nltk` modules installed.)
 
 ## Modifying Test Data
 
